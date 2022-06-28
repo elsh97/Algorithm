@@ -1,6 +1,3 @@
-from re import L
-
-
 def solution(arr):
     for i in range(len(arr)):
         min_val = min(arr[i:])
@@ -21,4 +18,5 @@ test_set = [
 
 print("-"*10,"Select Sort","-"*10)
 for i,arr in enumerate(test_set):
-    print("#{} : {}".format(i, solution(arr)))
+    print("#{} : {}".format(i, solution1(arr)))
+

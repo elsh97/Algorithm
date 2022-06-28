@@ -19,8 +19,6 @@ def solution(arr):
 
     return new_arr
 
-
-
 test_set = [
     [3,45,6,1,2,5,76,7],
     [21,547,87,3,2,45,7,9],
