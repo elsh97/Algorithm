@@ -17,4 +17,4 @@ test_set = [
 
 print("-"*10,"Bubble Sort","-"*10)
 for i,arr in enumerate(test_set):
-    print("#{} : {}".format(i, solution1(arr)))
+    print("#{} : {}".format(i, solution(arr)))
