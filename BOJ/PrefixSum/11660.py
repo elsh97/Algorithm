@@ -1,5 +1,4 @@
 from sys import stdin
-from time import sleep
 input = stdin.readline
 
 n, m = map(int, input().split())
@@ -14,7 +13,6 @@ for _ in range(m):
     answer = 0 
     for i in range(x1, x2+1):
         answer = answer + sum_matrix[i-1][y2] - sum_matrix[i-1][y1-1]
-    sleep(0.3)
     print(answer)
 
 # sleep(0.5)
